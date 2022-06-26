@@ -54,6 +54,8 @@ The circuit connections are located in the "Circuit.png" file inside the "resour
 
 ![Circuit](https://user-images.githubusercontent.com/76220147/175838409-4cfa4d9c-92ac-4371-a021-a46a68c18926.png)
 
-
+### Working demonstration
+The working project is demonstrated in the "Demo.mp4" video inside the "resources" folder (.resources/Demo.mp4)
+Youtube link: https://youtu.be/L9vUJPgCrEM
 
 
