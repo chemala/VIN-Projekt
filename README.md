@@ -12,7 +12,9 @@ I will accomplish this by using an Ultrasonic sensor to detect a placed object, 
 * 5-Axis 6 Servo Robot Arm 
 
 ## Component Descriptions
+
 * Arduino UNO
-  ![image](https://user-images.githubusercontent.com/76220147/175832686-62c6ccaf-dde7-4a1b-80ef-9b5948d92ae6.png)
+  
+    ![image](https://user-images.githubusercontent.com/76220147/175832686-62c6ccaf-dde7-4a1b-80ef-9b5948d92ae6.png)
 
 
