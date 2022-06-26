@@ -8,7 +8,7 @@ I will accomplish this by using an Ultrasonic sensor to detect a placed object, 
 * Arduino Nano 
 * TCS230 Color Sensor 
 * HCSR04 Ultrasonic Sensor 
-* 5V 15A Power Supply 
+* 5V 15A Power Supply Unit
 * 5-Axis 6 Servo Robot Arm 
 
 ## Component Descriptions
@@ -34,6 +34,13 @@ I will accomplish this by using an Ultrasonic sensor to detect a placed object, 
 >>  * TRIG -> This pin is used to trigger ultrasonic sound pulses. By setting this pin to HIGH for 10µs, the sensor initiates an ultrasonic burst.
 >>  * ECHO -> This pin goes high when the ultrasonic burst is transmitted and remains high until the sensor receives an echo, after which it goes low. By measuring the time the Echo pin stays high, the distance can be calculated.
 >>  The distance is calculated with the formula **Distance = (Speed of Sound X Time )/2** where the Speed of Sound is 0.034 cm/μs.
+> ### 5V 15A Power Supply Unit
+> ![image](https://user-images.githubusercontent.com/76220147/175837100-2d372e4b-ba9b-409d-894d-67d29d934bf8.png)
+>> The 5V 15A PSU was used to power the robot arm's servo motors. Each of the 6 servos had a peak current draw of 2A so a PSU of this capacity was the best option.
+>### 5-axis 6 Servo Robot Arm
+> ![image](https://user-images.githubusercontent.com/76220147/175837250-801ac05c-344a-4661-9b1d-853400c12fc5.png)
+>> This kit came disassembled and had to be assembled and calibrated from scratch. The kit came with aluminum brackets, screws, bolts, a gripper and 6 servos of which 4 were TowerPro MG996R servos (Torque: 10 kg/cm) and 2 were DigitalServo DS 3218MG servos (Torque: 25 kg/cm). All of the servos have a 0-180 degree range of motion. 
+
 
 
 
