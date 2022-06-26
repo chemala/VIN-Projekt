@@ -49,6 +49,10 @@ The Nano board will calculate the distance of the first object in front of the U
 > ###  Serial Communication
 >>To send the data that the Arduino Nano received from the Color sensor and the Ultrasonic sensor I used the "SoftwareSerial" library. The "SoftwareSerial" library enabled me to define the RX (Receive) and TX (Transmit) to pins other than the already defined RX/TX pins on the UNO and Nano boards which were 1 and 0. This was needed in order to be able to use the USB connections of both boards (for uploading and debugging) while also sending the color information from the Nano board to the UNO board.
 
+### Connections
+The circuit connections are located in the "Circuit.png" file inside the "resources" folder (./resources/Circuit.png)
+
+![Circuit](https://user-images.githubusercontent.com/76220147/175838409-4cfa4d9c-92ac-4371-a021-a46a68c18926.png)
 
 
 
