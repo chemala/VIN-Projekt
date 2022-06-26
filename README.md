@@ -21,6 +21,10 @@ I will accomplish this by using an Ultrasonic sensor to detect a placed object, 
 >> The Arduino Nano is a microcontroller board that has the same functionality of an Arduino UNO board but in a much smaller form factor. The only difference between them is that the UNO can be used with a bigger number of shields. The Nano board will be used to communicate with the Color and Ultrasonic sensors and send the data to the UNO board via a serial connection.
 > ### TCS230 Color Sensor
 > ![image](https://user-images.githubusercontent.com/76220147/175833316-014aa6cd-8bdb-4a7d-b036-c1c7f22ae73c.png)
+>> The TCS230 Color Sensor senses color light with the help of an 8 x 8 array of photodiodes for which there are 4x16 filters of different colors (Red, Green, Blue and Clear). Then using a Current-to-Frequency Converter the readings from the photodiodes are converted into a square wave with a frequency directly proportional to the light intensity. This sensor will be used to read the color of the objects placed in front of the arm.
+> ### HCSR04 Ultrasonic Sensor
+> ![image](https://user-images.githubusercontent.com/76220147/175833494-5bbea197-a184-4d2e-a2a3-4c3e13a63cdf.png)
+
 
 
 
