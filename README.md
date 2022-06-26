@@ -33,7 +33,7 @@ I will accomplish this by using an Ultrasonic sensor to detect a placed object, 
 >>  Connections :
 >>  * TRIG -> This pin is used to trigger ultrasonic sound pulses. By setting this pin to HIGH for 10µs, the sensor initiates an ultrasonic burst.
 >>  * ECHO -> This pin goes high when the ultrasonic burst is transmitted and remains high until the sensor receives an echo, after which it goes low. By measuring the time the Echo pin stays high, the distance can be calculated.
->>  The distance is calculated with the formula ** Distance = (Speed of Sound in μs X Time in μs)/2 ** where the Speed of Sound is 0.034 cm/μs.
+>>  The distance is calculated with the formula **Distance = (Speed of Sound in μs X Time in μs)/2** where the Speed of Sound is 0.034 cm/μs.
 
 
 
