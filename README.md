@@ -15,7 +15,9 @@ I will accomplish this by using an Ultrasonic sensor to detect a placed object, 
 
 > ### Arduino UNO
 > ![image](https://user-images.githubusercontent.com/76220147/175832686-62c6ccaf-dde7-4a1b-80ef-9b5948d92ae6.png)
->> The Arduino UNO is a microcontroller board based on the ATmega328P. It is used for prototyping and simple electronics projects. It has 14 digital I/O pins of which 6 are also PWM outputs, which the servo motors use as a signal input for moving to a distinct position (degree).
+>> The Arduino UNO is a microcontroller board based on the ATmega328P. It is used for prototyping and simple electronics projects. It has 14 digital I/O pins of which 6 are also PWM outputs. The servo motors will use this PWM output as an input for moving to a distinct position (degree).
+> ### Arduino Nano
+> ![image](https://user-images.githubusercontent.com/76220147/175833089-d66f3c4d-8293-4486-9ec7-ca2e11861049.png)
 
 
 
