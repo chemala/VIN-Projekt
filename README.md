@@ -25,10 +25,15 @@ I will accomplish this by using an Ultrasonic sensor to detect a placed object, 
 >> Connections:
 >>  * Pins S2, S3 -> Control pins used to select which photodiodes will be read (R, G, B, C)
 >>  * Pins S0, S1 -> Control pins used for scaling the output frequency of the sensor
->>  * Pin OUT -> outputs a TTL level square wave
+>>  * OUT -> outputs a TTL level square wave
+>>  * OE -> Output Enable pin (connect to GND by default)
 > ### HCSR04 Ultrasonic Sensor
 > ![image](https://user-images.githubusercontent.com/76220147/175833519-65f13d60-c2d6-47a9-a1fe-3a0854e0cfb2.png)
-
+>> The HCSR04 consists of two ultrasonic transducers where one acts as a transmitter that converts the electrical signal into 40 KHz ultrasonic sound pulses while the other acts as a receiver and listens for the transmitted pulses. When the receiver receives these pulses, it produces an output pulse whose width is proportional to the distance of the object in front. This sensor provides excellent range detection between 2 cm to 400 cm with an accuracy of 3 mm.
+>>  Connections :
+>>  * TRIG -> This pin is used to trigger ultrasonic sound pulses. By setting this pin to HIGH for 10µs, the sensor initiates an ultrasonic burst.
+>>  * ECHO -> This pin goes high when the ultrasonic burst is transmitted and remains high until the sensor receives an echo, after which it goes low. By measuring the time the Echo pin stays high, the distance can be calculated.
+>>  The distance is calculated with the formula ** Distance = (Speed of Sound in μs X Time in μs)/2 ** where the Speed of Sound is 0.034 cm/μs.
 
 
 
