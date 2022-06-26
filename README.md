@@ -4,6 +4,7 @@ I will accomplish this by using an Ultrasonic sensor to detect a placed object, 
 
 ## Components
 
+
 *Arduino UNO 
 *Arduino Nano 
 *TCS230 Color Sensor 
