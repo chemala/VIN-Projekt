@@ -60,7 +60,6 @@ void moveRed() {
   s2.write(55, 20, true);
   s6.write(60, 35, true);
   delay(200);
-   //s2.write(110, 25, true);
   r = false;
 
 
@@ -168,9 +167,7 @@ void setup() {
   s4.detach();
   s5.detach();
   s6.detach();
-  //goToStart();
 
-  //the pin for the servo control
 
 }
 
@@ -214,7 +211,7 @@ void loop() {
       moveRed();
       delay(200);
       r=false;
-      //goToStart();
+
       delay(500);
       resetFunc();
 
@@ -224,7 +221,7 @@ void loop() {
       moveBlue();
       delay(200);
       b=false;
-      //goToStart();
+
       delay(500);
       resetFunc();
 
@@ -234,7 +231,7 @@ void loop() {
       moveYellow();
       delay(200);
       y=false;
-      //goToStart();
+
       delay(500);
       resetFunc();
 
