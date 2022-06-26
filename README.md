@@ -50,9 +50,13 @@ Youtube link: https://youtu.be/L9vUJPgCrEM
 >### 5-axis 6 Servo Robot Arm
 > ![image](https://user-images.githubusercontent.com/76220147/175837250-801ac05c-344a-4661-9b1d-853400c12fc5.png)
 >> This kit came disassembled and had to be assembled and calibrated from scratch. The kit came with aluminum brackets, screws, bolts, a gripper and 6 servos of which 4 were TowerPro MG996R servos (Torque: 10 kg/cm) and 2 were DigitalServo DS 3218MG servos (Torque: 25 kg/cm). All of the servos have a 0-180 degree range of motion. The motors' VCC and GND were connected to the power supply, while the PWM inputs were connected to the   
-> ###  Serial Communication
->>To send the data that the Arduino Nano received from the Color sensor and the Ultrasonic sensor I used the "SoftwareSerial" library. The "SoftwareSerial" library enabled me to define the RX (Receive) and TX (Transmit) to pins other than the already defined RX/TX pins on the UNO and Nano boards which were 1 and 0. This was needed in order to be able to use the USB connections of both boards (for uploading and debugging) while also sending the color information from the Nano board to the UNO board.
+###  Serial Communication
+To send the data that the Arduino Nano received from the Color sensor and the Ultrasonic sensor I used the "SoftwareSerial" library. The "SoftwareSerial" library enabled me to define the RX (Receive) and TX (Transmit) to pins other than the already defined RX/TX pins on the UNO and Nano boards which were 1 and 0. This was needed in order to be able to use the USB connections of both boards (for uploading and debugging) while also sending the color information from the Nano board to the UNO board.
 
+### Code
+The code used for the project is located in the "resources" folder.
+Arduino UNO code -> "./resources/robotarm.ino"
+Arduino Nano code -> "./resources/nanocode.ino"
 ### Connections
 The circuit connections are located in the "Circuit.png" file inside the "resources" folder (./resources/Circuit.png)
 
