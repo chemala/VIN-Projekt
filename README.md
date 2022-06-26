@@ -23,7 +23,7 @@ I will accomplish this by using an Ultrasonic sensor to detect a placed object, 
 > ![image](https://user-images.githubusercontent.com/76220147/175833316-014aa6cd-8bdb-4a7d-b036-c1c7f22ae73c.png)
 >> The TCS230 Color Sensor senses color light with the help of an 8 x 8 array of photodiodes for which there are 4x16 filters of different colors (Red, Green, Blue and Clear). Then using a Current-to-Frequency Converter the readings from the photodiodes are converted into a square wave with a frequency directly proportional to the light intensity. This sensor will be used to read the color of the objects placed in front of the arm.
 > ### HCSR04 Ultrasonic Sensor
-> ![image](https://user-images.githubusercontent.com/76220147/175833494-5bbea197-a184-4d2e-a2a3-4c3e13a63cdf.png)
+> ![image](https://user-images.githubusercontent.com/76220147/175833519-65f13d60-c2d6-47a9-a1fe-3a0854e0cfb2.png)
 
 
 
