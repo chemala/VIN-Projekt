@@ -55,7 +55,7 @@ To send the data that the Arduino Nano received from the Color sensor and the Ul
 
 ### Code
 
-The code used for the project is located in the "resources/code" folder.
+The code used for the project is located in the "resources/code" folder.\
 Arduino UNO code -> "./resources/code//robotarm.ino"\
 Arduino Nano code -> "./resources/code/nanocode.ino"
 
