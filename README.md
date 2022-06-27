@@ -35,7 +35,7 @@ Youtube link: https://youtu.be/L9vUJPgCrEM
 >>  * OUT -> outputs a TTL level square wave
 >>  * OE -> Output Enable pin (connect to GND by default) The reading of colors is accomplished by setting the control pins for the photodiodes (S2, S3) to the Red filter and reading the output, then doing the same for the Green filter and the Blue filter. Combining the three received values the sensor is calibrated using items at our disposal so we know which values to expect for each color.
 
-<!-- -->
+>><!-- -->
 
 >> This sensor will be connected to the Arduino Nano and send its readings to it.
 > ### HCSR04 Ultrasonic Sensor
