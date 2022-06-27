@@ -6,7 +6,7 @@ I will accomplish this by using an Ultrasonic sensor to detect a placed object, 
 The Nano board will calculate the distance of the first object in front of the Ultrasonic sensor, if the distance is less than 11 cm that will mean that an object is present at the pick-up area of the robot arm. When that happens, the Nano board will determine the color of the object using the Color sensor and if the object's color corresponds to a drop-off area color, the Nano board will send the color to the UNO board. The UNO board will then send signals to the servo motors which will enable the arm to pick up the object and drop it off to an area that corresponds with the object's color.
 
 ## Video demonstration of the project
-The working project is demonstrated in the "Demo.mp4" video inside the "resources" folder (.resources/Demo.mp4)
+The working project is demonstrated in the "Demo.mp4" video inside the "resources" folder (.resources/Demo.mp4)\
 Youtube link: https://youtu.be/L9vUJPgCrEM
 
 ## Components
