@@ -54,9 +54,11 @@ Youtube link: https://youtu.be/L9vUJPgCrEM
 To send the data that the Arduino Nano received from the Color sensor and the Ultrasonic sensor I used the "SoftwareSerial" library. The "SoftwareSerial" library enabled me to define the RX (Receive) and TX (Transmit) to pins other than the already defined RX/TX pins on the UNO and Nano boards which were 1 and 0. This was needed in order to be able to use the USB connections of both boards (for uploading and debugging) while also sending the color information from the Nano board to the UNO board.
 
 ### Code
+
 The code used for the project is located in the "resources/code" folder.
 Arduino UNO code -> "./resources/code//robotarm.ino"
 Arduino Nano code -> "./resources/code/nanocode.ino"
+
 ### Connections
 The circuit connections are located in the "Circuit.png" file inside the "resources" folder (./resources/Circuit.png)
 
