@@ -43,6 +43,7 @@ Youtube link: https://youtu.be/L9vUJPgCrEM
 >>  * TRIG -> This pin is used to trigger ultrasonic sound pulses. By setting this pin to HIGH for 10µs, the sensor initiates an ultrasonic burst.
 >>  * ECHO -> This pin goes high when the ultrasonic burst is transmitted and remains high until the sensor receives an echo, after which it goes low. By measuring the time the Echo pin stays high, the distance can be calculated.
 >>  The distance is calculated with the formula **Distance = (Speed of Sound X Time )/2** where the Speed of Sound is 0.034 cm/μs.
+>>  
 >>  This sensor will be connected to the Arduino Nano and send its readings to it.
 > ### 5V 15A Power Supply Unit
 > ![image](https://user-images.githubusercontent.com/76220147/175837100-2d372e4b-ba9b-409d-894d-67d29d934bf8.png)
