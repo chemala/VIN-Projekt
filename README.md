@@ -34,8 +34,8 @@ Youtube link: https://youtu.be/L9vUJPgCrEM
 >>  * Pins S0, S1 -> Control pins used for scaling the output frequency of the sensor
 >>  * OUT -> outputs a TTL level square wave
 >>  * OE -> Output Enable pin (connect to GND by default)
->>  The reading of colors is accomplished by setting the control pins for the photodiodes (S2, S3) to the Red filter and reading the output, then doing the same for the Green filter and the Blue filter. Combining the three received values the sensor is calibrated using items at our disposal so we know which values to expect for each color.\ 
->>This sensor will be connected to the Arduino Nano and send its readings to it.
+>>  The reading of colors is accomplished by setting the control pins for the photodiodes (S2, S3) to the Red filter and reading the output, then doing the same for the Green filter and the Blue filter. Combining the three received values the sensor is calibrated using items at our disposal so we know which values to expect for each color.
+>> This sensor will be connected to the Arduino Nano and send its readings to it.
 > ### HCSR04 Ultrasonic Sensor
 > ![image](https://user-images.githubusercontent.com/76220147/175833519-65f13d60-c2d6-47a9-a1fe-3a0854e0cfb2.png)
 >> The HCSR04 consists of two ultrasonic transducers where one acts as a transmitter that converts the electrical signal into 40 KHz ultrasonic sound pulses while the other acts as a receiver and listens for the transmitted pulses. When the receiver receives these pulses, it produces an output pulse whose width is proportional to the distance of the object in front. This sensor provides excellent range detection between 2 cm to 400 cm with an accuracy of 3 mm.
